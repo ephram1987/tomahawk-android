@@ -166,6 +166,7 @@ public class CollectionActivity extends TomahawkTabsActivity
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.collection_activity);
+        com.tomoon.sdk.Emulator.configure(getWindow());
         // check if the content frame contains the menu frame
         if (findViewById(R.id.slide_menu_frame) == null) {
             setBehindContentView(R.layout.slide_menu_layout);

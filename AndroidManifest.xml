@@ -88,6 +88,7 @@
                   android:launchMode="singleInstance"
                   android:excludeFromRecents="true"
                   android:finishOnTaskLaunch="true"/>
+        <meta-data android:name="is_tomoon_app" android:value="true" />
     </application>
 
 </manifest>

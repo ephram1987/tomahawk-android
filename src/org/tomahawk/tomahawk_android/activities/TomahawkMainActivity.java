@@ -41,6 +41,7 @@ public class TomahawkMainActivity extends SherlockFragmentActivity {
         super.onCreate(savedInstanceState);
         View view = getLayoutInflater().inflate(R.layout.tomahawk_main_activity, null);
         setContentView(view);
+        com.tomoon.sdk.Emulator.configure(getWindow());
 
         Intent i = new Intent(this, CollectionActivity.class);
         startActivity(i);

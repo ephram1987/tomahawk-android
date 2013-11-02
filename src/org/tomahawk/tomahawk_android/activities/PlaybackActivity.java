@@ -61,6 +61,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.util.Log;
 import android.view.ContextMenu;
 import android.view.View;
 import android.view.ViewTreeObserver;
@@ -156,6 +157,7 @@ public class PlaybackActivity extends SherlockFragmentActivity
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.playback_activity);
+        com.tomoon.sdk.Emulator.configure(getWindow());
 
         final ActionBar bar = getSupportActionBar();
         bar.setDisplayShowHomeEnabled(true);
@@ -404,7 +406,7 @@ public class PlaybackActivity extends SherlockFragmentActivity
     public void onGlobalLayout() {
         final View activityRootView = getWindow().getDecorView().findViewById(android.R.id.content);
         mFragmentLayoutHeight = activityRootView.getHeight() - (int) TomahawkUtils
-                .convertDpToPixel(32f, this);
+                .convertDpToPixel(32f, this);Log.e("ttt", activityRootView.getHeight()+"");
         mPlaybackFragment = (PlaybackFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.playbackFragment);
         if (mPlaybackFragment != null && mPlaybackFragment.getView() != null) {

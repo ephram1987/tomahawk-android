@@ -1,31 +1,31 @@
 <resources>
 
-    <dimen name="padding_verysmall">4dp</dimen>
-    <dimen name="padding_small">8dp</dimen>
-    <dimen name="padding_medium">16dp</dimen>
-    <dimen name="padding_large">32dp</dimen>
+    <dimen name="padding_verysmall">2dp</dimen>
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
 
-    <dimen name="row_height_small">16dp</dimen>
-    <dimen name="row_height_medium">32dp</dimen>
-    <dimen name="row_height_large">48dp</dimen>
-    <dimen name="row_height_verylarge">64dp</dimen>
+    <dimen name="row_height_small">8dp</dimen>
+    <dimen name="row_height_medium">26dp</dimen>
+    <dimen name="row_height_large">24dp</dimen>
+    <dimen name="row_height_verylarge">32dp</dimen>
 
-    <dimen name="header_height_large">128dp</dimen>
+    <dimen name="header_height_large">64dp</dimen>
 
     <dimen name="divider_height_thin">1dp</dimen>
     <dimen name="divider_height_thick">2dp</dimen>
 
-    <dimen name="breadcrumbitem_maxwidth">96dp</dimen>
+    <dimen name="breadcrumbitem_maxwidth">48dp</dimen>
 
-    <dimen name="text_size_micro">12sp</dimen>
-    <dimen name="text_size_small">14sp</dimen>
-    <dimen name="text_size_medium">18sp</dimen>
-    <dimen name="text_size_large">22sp</dimen>
+    <dimen name="text_size_micro">6sp</dimen>
+    <dimen name="text_size_small">7sp</dimen>
+    <dimen name="text_size_medium">9sp</dimen>
+    <dimen name="text_size_large">11sp</dimen>
 
-    <dimen name="slidingmenu_offset">60dp</dimen>
-    <dimen name="slidingmenu_offset_landscape">300dp</dimen>
-    <dimen name="list_padding">10dp</dimen>
-    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="slidingmenu_offset">30dp</dimen>
+    <dimen name="slidingmenu_offset_landscape">150dp</dimen>
+    <dimen name="list_padding">5dp</dimen>
+    <dimen name="shadow_width">7dp</dimen>
     <integer name="num_cols">1</integer>
 
 </resources>
